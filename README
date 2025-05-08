@@ -2,11 +2,11 @@
 
 This project implements a command-line tool for managing index files using a B-tree structure. It supports create, insert, search, print, extract, and bulk load operations. Files are block-structured and follow a strict memory usage constraint (max 3 nodes in memory).
 
-## 📦 Requirements
+## Requirements
 
 * Python 3.7+
 
-## 🛠️ How to Run
+## How to Run
 
 All commands follow the format:
 
@@ -14,7 +14,7 @@ All commands follow the format:
 python project3.py <command> <arguments>
 ```
 
-## 🧪 Example Test Workflow
+## Example Test Workflow
 
 ### 1. Create an Index File
 
@@ -64,7 +64,7 @@ python project3.py search test.idx 99  # (Should print 'Key not found.')
 python project3.py extract test.idx output.csv
 ```
 
-## 🔁 Commands Summary
+## Commands Summary
 
 * `create <indexfile>` - Create a new index file.
 * `insert <indexfile> <key> <value>` - Insert a key/value.
@@ -73,7 +73,7 @@ python project3.py extract test.idx output.csv
 * `print <indexfile>` - Print all pairs.
 * `extract <indexfile> <output.csv>` - Save all pairs to CSV.
 
-## 📄 Output
+## Output
 
 * `test.idx`: Binary index file
 * `output.csv`: CSV of sorted key/value pairs
